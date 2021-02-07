@@ -1,0 +1,185 @@
+.menu-item{
+    margin-left: auto;
+}
+.menu-item li a{
+    text-decoration: none;
+    display: block;
+    margin: 5px 20px;
+    color: black !important;
+    font-size: 17px;
+}
+.nav-img{
+    margin-top: 15px;
+}
+  
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    margin: 0 auto;
+}
+input[type="search"] {
+    -webkit-appearance: none !important;
+    background-clip: padding-box;
+    background-color: #F8F7F5;
+    vertical-align: middle;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    width: 100%;
+    line-height: 2;
+    padding: 1rem 1.25rem;
+    -webkit-transition: border-color 0.2s;
+    -moz-transition: border-color 0.2s;
+    transition: border-color 0.2s;
+}
+
+input[type="search"]:focus {
+    transition: all 0.5s;
+    box-shadow: 0 0 40px tomato;
+    border-color: tomato;
+    outline: none;
+}
+
+form.search-form {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+input.search-field {
+    margin-bottom: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: center;
+    height: 51px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+input.search-submit {
+    height: 51px;
+    margin: 0;
+    padding: 1rem 1.3rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1rem;
+}
+.button {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 1.15;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    background: tomato;
+    color: #292826;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    text-shadow: none;
+    transition: all 0.2s;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    cursor: pointer;
+    background: tomato;
+    color: #292826;
+    outline: 0;
+}
+
+
+
+#foodItem{
+    margin: 25px 0 0 0;
+}
+#foods{
+    margin: 0 auto;
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.food-item{
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+    margin: 30px 15px;
+    width: 300px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+}
+.food-img{
+    
+}
+.food-img img{
+    width: 100%;
+    display: block;
+}
+.food-name{
+    padding: 20px 8px;
+}
+.food-name h2{
+    font-size: 16px;
+    text-align: center;
+}
+
+.foodDescription{
+    position: relative;
+    width: 500px;
+    min-height: 450px;
+    display: none;
+    margin: 0 auto;
+}
+.foodDetails{
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    display: block;
+}
+.foodDetails img{
+    height: 300px;
+    border-radius: 15px;
+}
+.foodDetails h2{
+    font-size: 30px;
+    text-align: left;
+}
+.foodDetails h4{
+    padding: 8px 0;
+    text-align: left;
+}
+.foodDetails ul li{
+    font-size: 16px;
+    margin: 3px;
+    list-style: none;
+}
+.foodDetails ul li img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+#closeBtn{
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    font-size: 1.8rem;
+}
+
+ .showAndRemoveFoodList{
+    display: block;
+ }
