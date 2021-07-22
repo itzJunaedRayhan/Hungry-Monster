@@ -120,6 +120,7 @@ input.search-submit {
     height: 370px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .food-img{
     
